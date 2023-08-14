@@ -1,0 +1,2 @@
+use echo $1
+db.school.remove({"name": "Holberton school"})
