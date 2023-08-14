@@ -1,0 +1,2 @@
+use echo $1
+db.school.insert({"name": "Holberton school"})
