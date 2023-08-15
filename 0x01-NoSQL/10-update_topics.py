@@ -8,7 +8,10 @@ by changing all the topics of the doc with name
    Arg3: topics
 """
 
+import pymongo
+
 
 def update_topics(mongo_collection, name, topics):
     """A func that update a collec in mongodb"""
-    mongo_collection.update_many({"name": name}, {"$set": {"topics": topics}})
+    return mongo_collection.update_many({"name": name},
+                                        {"$set": {"topics": topics}})
