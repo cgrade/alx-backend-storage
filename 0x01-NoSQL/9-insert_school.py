@@ -7,4 +7,4 @@
 def insert_school(mongo_collection, **kwargs):
     """func that insert document in a MongoDB collection"""
     mongo_collection.insert_many(kwargs)
-    return mongo_collection.inserted_id
+    return mongo_collection.inserted_ids
