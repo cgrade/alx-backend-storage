@@ -1,4 +1,4 @@
-#!/user/bin/env python3
+#!/usr/bin/env python3
 """a script that updates a collecion in mongodb
 by changing all the topics of the doc with name
 
