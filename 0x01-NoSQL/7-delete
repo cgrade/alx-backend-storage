@@ -1,2 +1,2 @@
-use echo $1
+// A script that removes a dockmunt
 db.school.remove({"name": "Holberton school"})
