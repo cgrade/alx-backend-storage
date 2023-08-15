@@ -1,2 +1,3 @@
+// a script that inserts a doc into the collection 'school';
 use echo $1
 db.school.insert({"name": "Holberton school"})
