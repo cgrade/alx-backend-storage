@@ -1,2 +1,4 @@
+// A scripts that lists all collection in 'school';
+
 use echo $1
 db.school.find()
