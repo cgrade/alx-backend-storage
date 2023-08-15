@@ -11,4 +11,4 @@ by changing all the topics of the doc with name
 
 def update_topics(mongo_collection, name, topics):
     """A func that update a collec in mongodb"""
-    return mongo_collection.update(name, topics)
+    return mongo_collection.update_many({name: name}, {$set: {topics: topics}})
