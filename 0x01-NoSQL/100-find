@@ -1,0 +1,4 @@
+// A script that uses Regex to find a particular name in mongodb
+
+use echo $1
+db.school.find({name: {$regex: "/Holberton/i"}})
