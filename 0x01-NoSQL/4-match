@@ -1,2 +1,5 @@
+// A script that list all documents with name
+// 'Holberton School'
+
 use echo $1
 db.school.find({"name": "Holberton school"})
